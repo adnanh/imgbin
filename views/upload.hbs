@@ -1,0 +1,21 @@
+<form method="post" enctype="multipart/form-data" action="/upload">
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="file">Select an image file to upload</label>
+                    <input type="file" name="file">
+                    <br/>
+                    <p class="text-default">
+                        Allowed extensions: <span class="label label-info">jpg</span> <span class="label label-info">png</span> <span class="label label-info">bmp</span> <span class="label label-info">gif</span> <span class="label label-info">tiff</span> <br/>
+                    </p>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <p class="text-default pull-left" style="margin-top: 8px;"><em>Please note that all uploaded files will be purged after 1 day.</em></p>
+                <button type="submit" class="btn btn-info pull-right">Upload</button>
+                <span class="clearfix"></span>
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,16 @@
+{
+  "name": "imgbin",
+  "version": "0.0.1",
+  "description": "Simple web service for temporary image sharing with an easy to use API",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "express": "~4.4.4",
+    "async": "~0.9.0",
+    "express3-handlebars": "~0.5.0",
+    "cron": "~1.0.4",
+    "node-uuid": "~1.4.1",
+    "formidable": "~1.0.15",
+    "moment": "~2.7.0"
+  }
+}
