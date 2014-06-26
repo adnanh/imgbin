@@ -8,7 +8,7 @@ var expressHbs = require('express3-handlebars');
 var fileRoutes = require('./routes/file.js');
 
 var cleaner = new cron.CronJob(
-    '*/15 * * * * *',
+    '* */30 * * * *',
     function() {
         fs.readdir(process.cwd() + path.sep + "public", function(err, files)
         {
