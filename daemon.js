@@ -1,7 +1,8 @@
 var daemon = require("daemonize2").setup({
     main: "application.js",
     name: "imgbin",
-    pidfile: "imgbin.pid"
+    pidfile: "imgbin.pid",
+    cwd: '.'
 });
 
 switch (process.argv[2]) {
